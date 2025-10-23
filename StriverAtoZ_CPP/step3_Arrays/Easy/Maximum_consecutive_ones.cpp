@@ -20,6 +20,7 @@ public:
 };
 
 int main() {
+    int res;
     Solution sol;
     vector<int> nums = {1,1,0,1,1,1};
     int result = sol.findMaxConsecutiveOnes(nums);
