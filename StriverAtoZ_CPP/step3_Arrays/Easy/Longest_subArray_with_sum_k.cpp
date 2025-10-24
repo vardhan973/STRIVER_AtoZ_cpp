@@ -31,7 +31,7 @@ int main() {
     Solution obj;
     vector<int> arr = {10, 5, 2, 7, 1, 9};
     int k = 15;
-
+//  longest subarray with sum k
     int result = obj.longestSubarray(arr, k);
     cout << "Length of the longest subarray with sum " << k << " is: " << result << endl;
 

@@ -31,7 +31,7 @@ int main() {
     int n, k;
     cout << "Enter size of array: ";
     cin >> n;
-
+  //longest subarray with sum k positives and negatives 
     vector<int> arr(n);
     cout << "Enter elements: ";
     for (int i = 0; i < n; i++) {
