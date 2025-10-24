@@ -5,6 +5,7 @@ using namespace std;
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
+        // optimal solution
         int x = 0;
         for (int i : nums) {
             x ^= i;
